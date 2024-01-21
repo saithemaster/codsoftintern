@@ -1,0 +1,235 @@
+
+.center {
+    text-align: center;
+}
+
+table {
+    width: 80%; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+table:hover {
+    transform: scale(1.02);
+}
+
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Navigation links */
+a {
+    text-decoration: none;
+    color: #0066cc;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a:hover {
+    color: #004080;
+    transform: scale(1.1);
+}
+
+/* Button styles */
+button {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+button:hover {
+    background-color: #002633;
+    transform: scale(1.05);
+}
+
+/* Form input styles */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* ... (other styles) */
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #004080;
+}
+
+button {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #002633;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+body[style="background-color:powderblue;"],
+body[style="background-color:rgb(177, 163, 160);"] {
+    background-color: powderblue;
+}
+
+.float-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #004080;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+mark {
+    background-color: #ffcc00;
+}
+
+strong {
+    font-weight: bold;
+}
+
+strong mark {
+    background-color: transparent;
+}
+
+font[face="Times New Roman"] {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+font[size="6"] {
+    font-size: 2em;
+}
+
+font[color="red"] {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+/* Floating transitions for buttons */
+button {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #002633;
+    transform: scale(1.1);
+}
+
+/* Floating transitions for links */
+a {
+    text-decoration: none;
+    color: #0066cc;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #004080;
+    transform: scale(1.1);
+}
+
+/* Floating transitions for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* ... (remaining styles) */
+
